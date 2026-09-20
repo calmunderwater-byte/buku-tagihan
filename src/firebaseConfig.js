@@ -1,12 +1,10 @@
-// Config project Firebase baru. Ganti semua nilai "ISI_..." di bawah dengan
-// nilai dari Firebase Console -> Project settings -> General -> Your apps -> Web app
-// (bagian "SDK setup and configuration" -> pilih "Config").
-export const firebaseConfig = {
-  apiKey: "ISI_API_KEY",
-  authDomain: "ISI_PROJECT_ID.firebaseapp.com",
-  projectId: "ISI_PROJECT_ID",
-  storageBucket: "ISI_PROJECT_ID.firebasestorage.app",
-  messagingSenderId: "ISI_MESSAGING_SENDER_ID",
-  appId: "ISI_APP_ID",
-  measurementId: "ISI_MEASUREMENT_ID", // opsional, hapus baris ini kalau Analytics tidak diaktifkan
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD5Nebvi95Fpd_W6xH_n3lE2eVcv5Llxn0",
+  authDomain: "buku-tagihan-d3cd9.firebaseapp.com",
+  projectId: "buku-tagihan-d3cd9",
+  storageBucket: "buku-tagihan-d3cd9.firebasestorage.app",
+  messagingSenderId: "438787812927",
+  appId: "1:438787812927:web:d7be6c99a71e766bd2d28a",
+  measurementId: "G-5FFXKV2W58"
 };
