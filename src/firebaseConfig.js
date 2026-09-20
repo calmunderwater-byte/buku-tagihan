@@ -1,11 +1,12 @@
-// Config project Firebase Anda (pts-d7256). Kalau suatu saat ganti project,
-// ambil ulang dari Firebase Console -> Project settings -> General -> Your apps.
+// Config project Firebase baru. Ganti semua nilai "ISI_..." di bawah dengan
+// nilai dari Firebase Console -> Project settings -> General -> Your apps -> Web app
+// (bagian "SDK setup and configuration" -> pilih "Config").
 export const firebaseConfig = {
-  apiKey: "AIzaSyCDLjE4fpJLwGd_SU0Yqnm80YrWur-8eW4",
-  authDomain: "pts-d7256.firebaseapp.com",
-  projectId: "pts-d7256",
-  storageBucket: "pts-d7256.firebasestorage.app",
-  messagingSenderId: "992314273571",
-  appId: "1:992314273571:web:8f8a6aa04495de5b0a2696",
-  measurementId: "G-V96FDBN6LS",
+  apiKey: "ISI_API_KEY",
+  authDomain: "ISI_PROJECT_ID.firebaseapp.com",
+  projectId: "ISI_PROJECT_ID",
+  storageBucket: "ISI_PROJECT_ID.firebasestorage.app",
+  messagingSenderId: "ISI_MESSAGING_SENDER_ID",
+  appId: "ISI_APP_ID",
+  measurementId: "ISI_MEASUREMENT_ID", // opsional, hapus baris ini kalau Analytics tidak diaktifkan
 };
